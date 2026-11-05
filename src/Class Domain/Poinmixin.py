@@ -7,7 +7,8 @@ class PoinMixin:
     def poin(self):
         return self.__poin
 
-    def tambah_poin(self, jumlah):
+    def tambah_poin(self, jumlah):                    # AB-10
+        _wajib_int(jumlah, "Poin")
         if jumlah < 0:
-            raise ValueError("Poin tidak boleh negatif")
+            raise ValueError(f"Poin tidak boleh negatif, diterima: {jumlah}")
         self.__poin += jumlah
