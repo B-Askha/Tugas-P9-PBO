@@ -48,8 +48,8 @@ Repository ini melanjutkan proyek UTS tersebut dengan menambahkan exception hand
 | Belah ketupat putih | Aggregation |
 
 Kalau gambar di atas terlalu kecil, kedua bagiannya juga tersedia dalam ukuran lebih besar:
-- [Bagian hierarki exception](docs/class-diagram-exception.png)
-- [Bagian kelas domain](docs/class-diagram-domain.png)
+- [Bagian hierarki exception](docs/class_diagram_exception.png)
+- [Bagian kelas domain](docs/class_diagram_domain.png)
 
 
 
