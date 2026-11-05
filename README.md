@@ -149,6 +149,6 @@ False
 
 | No | Nama | Peran |
 |----|------|-------|
-| 1 | [Eka] | [revisi diagram uml, ] |
-| 2 | [Bintang] | [membuat kode exception, ] |
-| 3 | [Deni] | [sdgsg, membuat kode baru main progam yaitu menambahkan] |
+| 1 | [Eka] | [revisi diagram uml, membuat kode baru untuk class ItemPesanan, Makanan, Member, MenuItem] |
+| 2 | [Bintang] | [membuat kode exception, membuat kode baru class PoinMixin, Kasir, menambahkan blok finally di main progam] |
+| 3 | [Deni] | [membuat kode baru class Minuman, Pelanggan, Pesanan, membuat README, mengatur isi dari repo github] |
