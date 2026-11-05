@@ -9,10 +9,12 @@ class Pelanggan:
         return self.__nama
 
     @nama.setter
-    def nama(self, nilai):
+    def nama(self, nilai):                            # AB-04
+        if not isinstance(nilai, str):
+            raise TypeError(f"Nama harus berupa teks, bukan {type(nilai).__name__}")
         if not nilai.strip():
-            raise ValueError("Nama tidak boleh kosong")
-        self.__nama = nilai
+            raise ValueError("Nama pelanggan tidak boleh kosong")
+        self.__nama = nilai.strip()
 
     def proses_pembelian(self, total):
         return 0                                      # pelanggan biasa: tanpa poin
